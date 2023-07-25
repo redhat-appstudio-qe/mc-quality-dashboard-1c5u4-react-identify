@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: frontend-quality-dashboard-pfza
     app.kubernetes.io/part-of: mc-quality-dashboard
-  name: frontend-quality-dashboarnxzl
+  name: frontend-quality-dashboarp3ae
 spec:
   port:
     targetPort: 8081
