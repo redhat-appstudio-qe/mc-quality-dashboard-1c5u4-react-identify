@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: frontend-quality-dashboard-pfza
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/multi-comp-e2e-yyei-tenant/mc-quality-dashboard/frontend-quality-dashboard-pfza@sha256:131cef25f5580c05a53fa4395e4c3142d85c53782e6169ee8ee8207c8522b78f
+        name: container-image
+        resources: {}
+status: {}
